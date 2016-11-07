@@ -1,0 +1,7 @@
+print("Hello, nano! My name is Jorge.")  
+
+My favorite musical artists is eminem. 
+
+My favorite food is pizza.
+
+
