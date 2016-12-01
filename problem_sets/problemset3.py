@@ -36,7 +36,8 @@ if money <= 500:
 if money > 500:
 	print("No that will not be give, the maximum for your services will be paid with 500 dollars!") 
 print("Now with your basic training will you join us in escorting the king?")
-choice_2 = str(raw_input()) 
+choice_2 = str(raw_input())
+print("Choose Yes or No.") 
 if choice_2 == "yes" or choice_2 == "Yes"
 	print("Great Soldier I say!")
 if choice_2 == "no" or choice_2 == "No"
@@ -46,13 +47,13 @@ print("Which way shall we go sir? Left or Right?")
 ambush = raw_input()
 if ambush is "left" or ambush is "Left"
 	print("Well it seems that we have to go fight the army, lets hope we are strong enough.")
-if luck <= 7:
+if luck <= 6:
 	print("10 people were lost in the battle sir.  We only have another 10 left.")
-if luck > 7:
+if luck > 6:
 	print("We didn't have any casualties, it seems as if we got lucky today.") 
-if health < 7:
+if health < 5:
 	print("Sir you need medical assistance, it seems as if you are bleeding to death!")
-if health >= 7:
+if health >= 5:
 	print(str(name) + "  you barely have any scratches you are pretty durable.")
 if strength < 6:
 	print("Cmon we have to keep going, you're not strong but you have to continue")
