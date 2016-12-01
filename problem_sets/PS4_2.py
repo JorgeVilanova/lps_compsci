@@ -4,9 +4,8 @@ myNum = random.randint(1, 1000)
 print("Here take a guess at what the number could be from 1 to 1000?")
 guess = -1
 takes = 0
-print(myNum)
 while guess != myNum:
-        guess = int(raw_input())
+       	guess = str(raw_input())
         if guess > myNum:
                 print("Too High, try again bud!")
                 takes = takes + 1
