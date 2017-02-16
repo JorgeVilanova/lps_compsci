@@ -9,7 +9,7 @@ print("Provide your thrid line of your Haiku:")
 line_3 = str(raw_input()) 
 print("Which file would you like to put your Haiku??")
 title = raw_input()
-my_file = open(title, "a")
+my_file = open(title, "w")
 
 my_file = (line_1 + "\n")
 my_file = (my_file + line_2 + "\n")
