@@ -40,10 +40,11 @@ def loadCars(carList, filename):
     # for each one, pull apart the variables to create a Car object
 #This will make the function start to read each line specifically. 	
 	while line != "":
-#not sure what this line does exactly
+#splits the texts in each line
 		lineSplit = line.split()
+#This will append the types in the file for each part of the list
 		ourCars.append(Car(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3]))
-#this will get the specifical words in the line to match it.
+#this will get the specifical words in the line to match it. There is a better function right above
 #		print("Buy this beautiful " + lineSplit[3] + " " + lineSplit[2] + " " + lineSplit[0] + " " + lineSplit[1] + ".")
 #this will make it read again so that it can continue until it has nothing left to read
 		line = y.readline()
