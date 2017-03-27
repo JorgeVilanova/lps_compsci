@@ -16,6 +16,7 @@ listLength = len(wordsList)
 
 randint = random.randint(0, listLength)
 randWord = wordsList[randint]
+print("Here is a random word:")
 print(randWord)
 
 
